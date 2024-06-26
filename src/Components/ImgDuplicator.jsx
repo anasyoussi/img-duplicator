@@ -143,7 +143,7 @@ const ImgDuplicator = () => {
       <div className='mt-5 ml-9 flex gap-5 align-middle'>
         <div className=''>
           <button className='mr-5 border p-3 bg-gradient-to-r from-blue-400 to-blue-800 text-white shadow-md hover:shadow-lg rounded-md focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50' onClick={duplicateImages}>Duplicate Images</button>
-          <button className='mr-5 border p-3 bg-gradient-to-r from-blue-400 to-blue-800 text-white shadow-md hover:shadow-lg rounded-md focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50' onClick={removeDuplicatedImages}>Remove Duplicate Images</button>
+          <button className='mr-5 border p-3 bg-gradient-to-r from-blue-400 to-blue-800 text-white shadow-md hover:shadow-lg rounded-md focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50' onClick={removeDuplicatedImages}>Remove Duplicated Images</button>
           <button className='border p-3 bg-gradient-to-r bg-green-600 text-white shadow-md hover:shadow-lg rounded-md focus:outline-none focus:ring focus:ring-green-400 focus:ring-opacity-50' onClick={cleanEditors}>Clean</button>
         </div>
         <div className='self-center'>
